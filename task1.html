@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous"> 
+    <title>YouTube</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+    crossorigin="anonymous"></script>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid d-flex align-items-center">
+            <a href="#" class="navbar-brand me-3">
+                <img src="youtube-logo.jpg" alt="logo" width="90" height="auto">
+            </a>
+
+            <form class="d-flex flex-grow-1">
+                <div class="input-group">
+                    <input class="form-control bg-dark text-light rounded-pill" type="search" placeholder="Search" aria-label="Search">
+                    <span>
+                        <button class="btn btn-outline-secondary bg-secondary rounded-pill" type="submit">
+                            <img src="icons8-search-50 .png" alt="search" width="20">
+                        </button>
+                        <button class="btn btn-outline-secondary bg-secondary rounded-pill" type="submit">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mic-fill" viewBox="0 0 16 16">
+                                <path d="M5 3a3 3 0 0 1 6 0v5a3 3 0 0 1-6 0z"/>
+                                <path d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5"/>
+                            </svg>
+                        </button>
+                    </span>
+
+                    <button class="btn btn-outline-secondary bg-secondary rounded-pill" type="submit">
+                        <span> 
+                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 1 16 16">
+                                <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/> 
+                               </svg> create
+                        </button> 
+                        </span>
+
+                </div>
+            </form>
+
+            <div class="p-3 m-3">
+                <a href="#" class="btn btn-secondary rounded-pill mx-1 btn active bg-light text-dark">All</a>
+                <a href="#" class="btn btn-secondary rounded-pill mx-1">JavaScripts</a>
+                <a href="#" class="btn btn-secondary rounded-pill mx-1">Computer Files</a>
+                <a href="#" class="btn btn-secondary rounded-pill mx-1">AI</a>
+                <a href="#" class="btn btn-secondary rounded-pill mx-1">C++</a>
+                <a href="#" class="btn btn-secondary rounded-pill mx-1">Podcasts</a>
+                <a href="#" class="btn btn-secondary rounded-pill mx-1">Live</a>
+                <a href="#" class="btn btn-secondary rounded-pill mx-1">Entrepreneurship</a>
+                <a href="#" class="btn btn-secondary rounded-pill mx-1">Music</a>
+                <a href="#" class="btn btn-secondary rounded-pill mx-1">Recently Uploaded</a>
+                <a href="#" class="btn btn-secondary rounded-pill mx-1">Watched</a>
+                <a href="#" class="btn btn-secondary rounded-pill mx-1">New</a>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark"> 
+
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav flex-column">
+                    <li class="nav-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                            <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5"/>
+                          </svg><a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Shorts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Subscriptions</a>
+                    </li>
+                    <hr class="text-secondary">
+                    <li class="nav-item">
+                        <h5><a class="nav-link" href="#">You</a></h5>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">History</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Playlists</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Watch later</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Liked video</a>
+                    </li>
+                    <hr class="text-secondary">
+                    <li class="nav-item">
+                        <h5><a class="nav-link" href="#">Explore</a></h5>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Trending</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Music</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Live</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Gaming</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sports</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    </div>
+
+    <div class="card bg-dark text-light alert alert-primary" role="alert">
+        <img src="youtube-logo.jpg" alt="logo" width="90" height="auto">
+          <div class="card-body">
+            <h5 class="card-title">Ad blockers are not allowed on YouTube</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+        <ul>
+          <li > It looks like you maybe using ad blocker. Video playback will be blocked unless YouTube is allow listed or the ad blocker is displayed.</li>
+          <li >Ads allow Youtube to be used by billions worldwide.</li>
+          <li>You can go ad-free with Youtube Premium, and creators can still gets paid from your subscription</li>
+        </ul>
+        <div class="p-3 m-3 btn rounded-pill">
+          <a href="#" class="btn btn-secondary btn-active  bg-light text-dark">Allow Youtube Ads </a>
+          <a href="#" class="btn btn-secondary">Try Youtube Premium </a>
+        </div>
+        <hr>
+    <div class="card-body">
+          <em class="text-secondary"> Not using an ad blocker?  </em>
+          <a href="#" class="card-link">Report issue </a>
+        </div>
+      </div>
+
+
+
+</body>
+</html>
